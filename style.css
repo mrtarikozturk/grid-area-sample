@@ -1,0 +1,34 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* ----------------------------------------------------------------
+        The above code can also be written as "grid-template-columns: repeat(6, 1fr)/repeat(6, auto)/repeat(4, 25%);" 
+    -----------------------------------------------------------------*/
+
+    padding: 10px;
+    background-color: teal;
+ 
+ }
+ 
+ .grid-item{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: 3px solid ;
+ }
+ 
+ #item8 {
+    /* grid-column: 2/6; */
+    /* grid-row: 1/5; */
+    grid-area: 1/2/5/6; 
+    
+    /* ----------------------------------------------------------------
+        The first code above can also be written as grid-area : row-start/ column-start/row-end/column-end
+    -----------------------------------------------------------------*/  
+ }
+ 
+ 
+ 
+ 
+ 
+ 
